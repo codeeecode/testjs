@@ -9,11 +9,12 @@ const app = http.createServer((request, response) => {
     response.statusCode = 200; //HTTP_OK
     response.setHeader("Content-Type", "text/html");
     response.write("hello everybody");
+    response.write("<h1>minh 123</h1>")
     response.end()
 });
 //b4.chạy web bằng cách listen port
 //note console.log ko cat cuoc
 app.listen(port, () => {
-    console.log("server is running")
+    console.log("524")
 
 });
