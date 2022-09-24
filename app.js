@@ -10,6 +10,7 @@ const app = http.createServer((request, response) => {
     response.setHeader("Content-Type", "text/html");
     response.write("hello everybody");
     response.write("<h1>minh 123</h1>")
+    response.write("<img src='https://anhdephd.vn/wp-content/uploads/2022/04/anh-doremon-2.jpg'>")
     response.end()
 });
 //b4.chạy web bằng cách listen port
