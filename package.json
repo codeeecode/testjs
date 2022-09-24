@@ -1,0 +1,20 @@
+{
+    "name": "demo",
+    "version": "1.0.0",
+    "description": "deploy node js to heroku",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/codeeecode/testjs.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/codeeecode/testjs/issues"
+    },
+    "homepage": "https://github.com/codeeecode/testjs#readme"
+}
